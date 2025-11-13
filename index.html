@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivakant Shukla • Java Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-0R1F8eHj0ySxG+K9y3nG9v5bVbZp4qzNn3PqP7V9aXc8p1S7m0G3Jr2m5Uo8XUjvK/Ae8g3vXJqJm0TtN7Yg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="description" content="Portfolio of Shivakant Shukla — Java Developer and Software Engineer." />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="container header">
+    <a href="#home" class="brand"><span class="brand-accent">S</span>hivakant<span class="brand-fade">.dev</span></a>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+      <a class="btn" href="resume.pdf" download><i class="fa-solid fa-download"></i><span>Resume</span></a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero container">
+    <div class="hero-text">
+      <h1>Hi, I’m <span class="primary">Shivakant Shukla</span></h1>
+      <h2 class="type">
+        <span id="typewriter" data-words='["Java Developer","Spring Boot Enthusiast","Software Engineer","Backend Problem Solver"]'></span>
+        <span class="cursor">|</span>
+      </h2>
+      <p class="subtitle">
+        Building reliable backends, crafting clean APIs, and shipping production-ready features.
+      </p>
+      <div class="cta">
+        <a href="#projects" class="btn primary-btn"><i class="fa-solid fa-code"></i><span>See Projects</span></a>
+        <a href="#contact" class="btn ghost-btn"><i class="fa-regular fa-paper-plane"></i><span>Contact Me</span></a>
+      </div>
+      <div class="socials">
+        <a href="mailto:ss2205788@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="glass">
+        <div class="stat">
+          <i class="fa-solid fa-rocket"></i>
+          <div>
+            <div class="stat-num">Java</div>
+            <div class="stat-label">Spring Boot</div>
+          </div>
+        </div>
+        <div class="stat">
+          <i class="fa-solid fa-database"></i>
+          <div>
+            <div class="stat-num">SQL</div>
+            <div class="stat-label">AWS • React</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container section">
+    <h3 class="section-title">About</h3>
+    <p>
+      I’m a <strong>software engineer</strong> focused on backend systems with <strong>Java</strong> and <strong>Spring Boot</strong>.
+      I enjoy designing clean REST APIs, optimizing SQL queries, and deploying services on <strong>AWS</strong>.
+      On the frontend, I use <strong>React</strong> to craft fast, accessible interfaces.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container section">
+    <h3 class="section-title">Skills</h3>
+    <div class="skills-grid">
+      <div class="skill">
+        <div class="label"><i class="fa-brands fa-java"></i> Java</div>
+        <div class="bar"><span data-level="90"></span></div>
+      </div>
+      <div class="skill">
+        <div class="label"><i class="fa-solid fa-leaf"></i> Spring Boot</div>
+        <div class="bar"><span data-level="85"></span></div>
+      </div>
+      <div class="skill">
+        <div class="label"><i class="fa-solid fa-database"></i> SQL</div>
+        <div class="bar"><span data-level="80"></span></div>
+      </div>
+      <div class="skill">
+        <div class="label"><i class="fa-brands fa-react"></i> React</div>
+        <div class="bar"><span data-level="70"></span></div>
+      </div>
+      <div class="skill">
+        <div class="label"><i class="fa-brands fa-aws"></i> AWS</div>
+        <div class="bar"><span data-level="65"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container section">
+    <h3 class="section-title">Projects</h3>
+    <div class="projects-grid">
+      <!-- Project Card -->
+      <article class="card">
+        <div class="card-body">
+          <h4>XYZ</h4>
+          <p>Brief description of your project XYZ. Explain what it does, your role, and the tech stack (Java, Spring Boot, React, SQL, AWS).</p>
+          <div class="tags">
+            <span>Java</span><span>Spring Boot</span><span>React</span>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a class="link" href="#" aria-label="View Live"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+          <a class="link" href="#" aria-label="View Code"><i class="fa-brands fa-github"></i> Code</a>
+        </div>
+      </article>
+      <!-- Add more project cards by duplicating the block above -->
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container section">
+    <h3 class="section-title">Contact</h3>
+    <form id="contactForm" class="contact-form" action="mailto:ss2205788@gmail.com" method="post" enctype="text/plain">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary-btn"><i class="fa-regular fa-paper-plane"></i><span>Send</span></button>
+      <p class="form-tip">Or email me directly at <a href="mailto:ss2205788@gmail.com">ss2205788@gmail.com</a></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Shivakant Shukla. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home">Top</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
